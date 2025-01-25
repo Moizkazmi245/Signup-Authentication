@@ -14,6 +14,8 @@ onAuthStateChanged(auth, (user) => {
 
   } else {
     console.log("user is not logged in");
+    window.location = "login.html"
+
 
   }
 });

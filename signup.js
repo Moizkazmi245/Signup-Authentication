@@ -18,7 +18,7 @@ function createUserAccount() {
       const user = userCredential.user;
       console.log("user==>", user);
     
-      
+       window.location = 'login.html'
       // ...
     })
     .catch((error) => {
