@@ -17,6 +17,6 @@
 
   export const auth = getAuth(app)
   console.log(auth);
-  
+  auth.languageCode = 'en';
 //   export const analytics = getAnalytics(app);
   
