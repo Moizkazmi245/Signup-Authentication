@@ -14,7 +14,7 @@ onAuthStateChanged(auth, (user) => {
 
   } else {
     console.log("user is not logged in");
-    window.location = "login.html"
+    window.location = "./login.html"
 
 
   }
@@ -28,7 +28,7 @@ logOut_btn.addEventListener('click', logOutUser)
 
 function logOutUser(){
   signOut(auth).then(() => {
-    window.location = 'login.html'
+    window.location = './login.html'
     // Sign-out successful.
   }).catch((error) => {
     // An error happened.

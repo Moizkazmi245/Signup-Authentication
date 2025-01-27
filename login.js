@@ -17,7 +17,7 @@ function SignInUser(){
       // Signed in 
       const user = userCredential.user;
       console.log("user", user);
-      window.location = 'index.html'
+      window.location = './index.html'
       
       // ...
     })
@@ -37,7 +37,7 @@ function SignInUser(){
     const credential = GoogleAuthProvider.credentialFromResult(result);
     const token = credential.accessToken;
     const user = result.user;
-    window.location = 'index.html'
+    window.location = './index.html'
     // ...
   }).catch((error) => {
 
