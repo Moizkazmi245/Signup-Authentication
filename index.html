@@ -1,20 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
 
-    <div>
+    <nav class="nav-bar">
         <h1>Home</h1>
         <!-- <button id="logIn_btn">Log In</button>? -->
-        <button id="logOut_btn">Log Out</button>
-        
+        <div class="logoout-div">
+           <button id="logOut_btn">Log Out</button>
+        </div>
+    </nav>
+
+    <div class="main-div">
+        <label for="">Task:</label>
+        <input type="text" id="task" placeholder="enter task">
+        <label for="">Description:</label>
+        <input type="text" id="description" placeholder="description">
+        <button id="addTodo">Add</button>
     </div>
 
-    
+    <div class="container-todo">
+
+    </div>
+
     <script src="app.js" type="module"></script>
+    <script type="module" src="./todo.js"></script>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
 </body>
+
 </html>
