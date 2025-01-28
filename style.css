@@ -7,10 +7,11 @@
     font-family: "Kanit", serif;
     font-weight: 500;
     font-style: normal;
-    box-sizing: border-box; 
+    box-sizing: border-box;
 }
 
-.signIn, .signUp {
+.signIn,
+.signUp {
     background-color: #dad8d8;
     margin: 10px auto;
     border-radius: 10px;
@@ -21,14 +22,17 @@
     gap: 2vh;
     flex-wrap: wrap;
     padding: 20px;
-    width: 90%; /* Make it take up 90% of the screen width */
-    max-width: 400px; /* Limit the width on larger screens */
+    width: 90%;
+    /* Make it take up 90% of the screen width */
+    max-width: 400px;
+    /* Limit the width on larger screens */
 }
 
 .signIn h2 {
     font-size: 3rem;
     text-align: center;
 }
+
 .signUp h2 {
     font-size: 3rem;
     text-align: center;
@@ -43,9 +47,12 @@
     font-family: "Kanit", serif;
     font-weight: 200;
     font-style: normal;
-    width: 100%; /* Make input fields take full width */
-    max-width: 350px; /* Optional: Limit the input width */
+    width: 100%;
+    /* Make input fields take full width */
+    max-width: 350px;
+    /* Optional: Limit the input width */
 }
+
 .signUp input {
     font-size: 2rem;
     outline: none;
@@ -55,7 +62,7 @@
     font-family: "Kanit", serif;
     font-weight: 200;
     font-style: normal;
-    width: 100%; 
+    width: 100%;
     max-width: 350px;
 }
 
@@ -64,8 +71,10 @@
     border: none;
     padding: 10px;
     border-radius: 8px;
-    width: 100%; /* Button fills the container */
-    max-width: 360px; /* Optional: Limit button width */
+    width: 100%;
+    /* Button fills the container */
+    max-width: 360px;
+    /* Optional: Limit button width */
 }
 
 .signUp button {
@@ -73,8 +82,10 @@
     border: none;
     padding: 10px;
     border-radius: 8px;
-    width: 100%; /* Button fills the container */
-    max-width: 360px; /* Optional: Limit button width */
+    width: 100%;
+    /* Button fills the container */
+    max-width: 360px;
+    /* Optional: Limit button width */
 }
 
 .signIn a {
@@ -105,7 +116,9 @@
 }
 
 .email-div,
-.password-div, .signUpEmail-div, .signUpPassword-div {
+.password-div,
+.signUpEmail-div,
+.signUpPassword-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,13 +154,13 @@
     }
 }
 
-.nav-bar{
+.nav-bar {
     display: flex;
     justify-content: space-between;
     margin: 10px;
 }
 
-.nav-bar h1{
+.nav-bar h1 {
     font-size: 2rem;
 }
 
@@ -158,13 +171,13 @@
     border-radius: 8px;
 }
 
-.nav-bar button:hover{
+.nav-bar button:hover {
     background-color: #ebe7e7;
     cursor: pointer;
 }
 
 
-.logout-div{
+.logout-div {
     display: flex;
     align-items: center;
 }
@@ -174,7 +187,7 @@
     align-items: center;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: start;
     align-items: center;
@@ -187,7 +200,7 @@
     margin-right: 2px;
 }
 
-.nav a{
+.nav a {
     font-size: 2rem;
     text-decoration: none;
     color: #0155af;
@@ -224,11 +237,12 @@
     max-width: 400px;
 }
 
-.main-div label, input{
+.main-div label,
+input {
     font-size: 1.8rem;
 }
 
-.main-div input{
+.main-div input {
     outline: none;
     border: none;
     border-radius: 5px;
@@ -236,11 +250,11 @@
     font-family: "Kanit", serif;
     font-weight: 200;
     font-style: normal;
-    width: 100%; 
+    width: 100%;
     max-width: 350px;
 }
 
-.main-div button{
+.main-div button {
     font-size: 2rem;
     border: none;
     padding: 10px;
@@ -249,7 +263,38 @@
     max-width: 350px;
 }
 
-.main-div button:hover{
+.main-div button:hover {
     background-color: #ebe7e7;
     cursor: pointer;
+}
+
+.container-todo {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+
+}
+
+.card-div {
+    background-color: #dad8d8;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+}
+
+.card-div h3 {
+    font-size: 2rem;
+}
+
+.card-div p {
+    font-size: 2rem;
 }
