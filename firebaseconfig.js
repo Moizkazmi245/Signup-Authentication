@@ -14,13 +14,13 @@
   };
 
   export const app = initializeApp(firebaseConfig);
-  console.log(app);
+  // console.log(app);
 
   export const auth = getAuth(app)
-  console.log(auth);
+  // console.log(auth);
   auth.languageCode = 'en';
   export const db = getFirestore(app);
-  console.log(db);
+  // console.log(db);
   
 //   export const analytics = getAnalytics(app);
   
