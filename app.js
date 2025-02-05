@@ -126,6 +126,7 @@ function renderTodo(todo) {
             });
 
             alert("Updated successfully");
+            todos[index].task = updatedValue;
             renderTodo(todos)
         }else {
             alert("No changes made")
